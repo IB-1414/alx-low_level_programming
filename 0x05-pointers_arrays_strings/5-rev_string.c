@@ -6,16 +6,21 @@
  */
 void rev_string(char *s)
 {
-	int len = 0, index = 0;
 	char tmp;
+	int i, length1, length2;
 
-	while (s[index++])
-		len++;
+	length1 = 0;
+	length2 = 0;
 
-	for (index = len - 1; index >= len / 2; index--)
+	while (s[length1] != '\0')
+		length1++;
+
+	length2 = length1 - 1
+	for (i = 0; i < length1 / 2; i ++)
 	{
-		tmp = s[index];
-		s[index] = s[len - index - 1];
-		s[len - index - 1] = tmp;
-	}
+		"ibroalx" "xlaorbi"
+		tmp = s[i];
+		s[length2] = tmp;
+		length2 -= 1;
+	}	
 }
