@@ -1,7 +1,8 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * puts_half - Prints half of a string.
+ * puts_half.c - Prints half of a string.
  * @str: The string to be printed.
  */
 void puts_half(char *str)
@@ -18,7 +19,7 @@ void puts_half(char *str)
 		n = (len + 1) / 2;
 
 	for (index = n; index < len; index++)
-	_putchar(str[index]);
+		_putchar(str[index]);
 
 	_putchar('\n');
 }
